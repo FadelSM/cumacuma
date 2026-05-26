@@ -15,13 +15,11 @@ const repository = [
     { id: 14, date: "19 Apr 2026", name: "Pekan Sains Pelajar Indonesia (PSPI)", host: "Gemanesia", field: "Informatika", result: "Medali Perak", link: "#" },
     { id: 15, date: "19 Apr 2026", name: "Olimpiade Sains dan Teknologi Nasional (OSTN)", host: "Sentral Olimpiade", field: "Biologi", result: "Medali Emas (A+)", link: "#" },
     { id: 16, date: "26 Apr 2026", name: "Kejuaraan Sains Nasional (KSN)", host: "Puskanas", field: "Informatika", result: "Medali Emas (A+)", link: "#" },
-    { id: 17, date: "24 May 2026 15:00", name: "Sentral Olimpiade Nasional (SEON)", host: "Sentral Olimpiade", field: "Informatika", result: "Coming Soon", link: "#" },
-    { id: 18, date: "24 May 2026 14:00", name: "Sentral Olimpiade Nasional (SEON)", host: "Sentral Olimpiade", field: "Geografi", result: "Coming Soon", link: "#" },
-    { id: 19, date: "24 May 2026 10:00", name: "Saintech National Competition (SNC)", host: "Saintech", field: "Kimia", result: "Medali Emas", link: "#"},
-    { id: 20, date: "24 May 2026 10:40", name: "Saintech National Competition (SNC)", host: "Saintech", field: "Fisika", result: "Medali Emas", link: "#"},
-    { id: 21, date: "28 juny 2026 09:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Kimia", result: "Coming Soon", link: "#" },
-    { id: 22, date: "28 juny 2026 13:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Fisika", result: "Coming Soon", link: "#" },
-    { id: 23, date: "28 juny 2026 14:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Informatika", result: "Coming Soon", link: "#" }
+    { id: 17, date: "24 May 2026 14:00", name: "Sentral Olimpiade Nasional (SEON)", host: "Sentral Olimpiade", field: "Geografi", result: "Medali Emas (A+)", link: "#" },
+    { id: 18, date: "24 May 2026 10:00", name: "Saintech National Competition (SNC)", host: "Saintech", field: "Kimia", result: "Medali Emas", link: "#"},
+    { id: 19, date: "28 juny 2026 09:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Kimia", result: "Coming Soon", link: "#" },
+    { id: 20, date: "28 juny 2026 13:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Fisika", result: "Coming Soon", link: "#" },
+    { id: 21, date: "28 juny 2026 14:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Informatika", result: "Coming Soon", link: "#" }
 ];
 
 const renderTarget = document.getElementById('render-target');
