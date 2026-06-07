@@ -7,14 +7,14 @@ const repository = [
     { id: 6, date: "29 March 2026", name: "National Science Competition (NSC)", host: "Puskanas", field: "Informatika", result: "Medali Emas (A+)", link: "https://drive.google.com/file/d/1OJSE8bk_muhpFrXfmNyrk-kWHnOx8X6F/view?usp=drive_link" },
     { id: 7, date: "29 March 2026", name: "Olimpiade Sains Muda Indonesia (OSMI)", host: "Muda Sains", field: "Ekonomi", result: "Medali Perak", link: "https://drive.google.com/file/d/1-VxeLUvyW2mh7JPHzt27TXE7fY9GFbKW/view?usp=drive_link" },
     { id: 8, date: "29 March 2026", name: "Olimpiade Sains Muda Indonesia (OSMI)", host: "Muda Sains", field: "Informatika", result: "Medali Emas (A+)", link: "https://drive.google.com/file/d/19BUdb6SMu5DhVRepPCQzS3q5NX5AH_bh/view?usp=drive_link" },
-    { id: 9, date: "05 Apr 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Bahasa Indonesia", result: "Medali Perak", link: "#" },
-    { id: 10, date: "05 Apr 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Bahasa Inggris", result: "Medali Emas (A+)", link: "#" },
-    { id: 11, date: "05 Apr 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Matematika", result: "Medali Perak", link: "#" },
-    { id: 12, date: "05 Apr 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Kimia", result: "Medali Perak", link: "#" },
-    { id: 13, date: "05 Apr 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Informatika", result: "Medali Perak", link: "#" },
-    { id: 14, date: "19 Apr 2026", name: "Pekan Sains Pelajar Indonesia (PSPI)", host: "Gemanesia", field: "Informatika", result: "Medali Perak", link: "#" },
-    { id: 15, date: "19 Apr 2026", name: "Olimpiade Sains dan Teknologi Nasional (OSTN)", host: "Sentral Olimpiade", field: "Biologi", result: "Medali Emas (A+)", link: "#" },
-    { id: 16, date: "26 Apr 2026", name: "Kejuaraan Sains Nasional (KSN)", host: "Puskanas", field: "Informatika", result: "Medali Emas (A+)", link: "#" },
+    { id: 9, date: "05 April 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Bahasa Indonesia", result: "Medali Perak", link: "#" },
+    { id: 10, date: "05 April 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Bahasa Inggris", result: "Medali Emas (A+)", link: "#" },
+    { id: 11, date: "05 April 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Matematika", result: "Medali Perak", link: "#" },
+    { id: 12, date: "05 April 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Kimia", result: "Medali Perak", link: "#" },
+    { id: 13, date: "05 April 2026", name: "Future Science Competition (FSC)", host: "Yaspresnas", field: "Informatika", result: "Medali Perak", link: "#" },
+    { id: 14, date: "19 April 2026", name: "Pekan Sains Pelajar Indonesia (PSPI)", host: "Gemanesia", field: "Informatika", result: "Medali Perak", link: "#" },
+    { id: 15, date: "19 April 2026", name: "Olimpiade Sains dan Teknologi Nasional (OSTN)", host: "Sentral Olimpiade", field: "Biologi", result: "Medali Emas (A+)", link: "#" },
+    { id: 16, date: "26 April 2026", name: "Kejuaraan Sains Nasional (KSN)", host: "Puskanas", field: "Informatika", result: "Medali Emas (A+)", link: "#" },
     { id: 17, date: "24 May 2026 14:00", name: "Sentral Olimpiade Nasional (SEON)", host: "Sentral Olimpiade", field: "Geografi", result: "Medali Emas (A+)", link: "#" },
     { id: 18, date: "24 May 2026 10:00", name: "Saintech National Competition (SNC)", host: "Saintech", field: "Kimia", result: "Medali Emas (A+)", link: "#"},
     { id: 19, date: "31 May 2026 12:40", name: "LKN Nasional Science Competition (LNSC)", host: "Lembaga Kompetisi Nasional", field: "Fisika", result: "Medali Emas (A+)", link: "#" },
@@ -27,7 +27,6 @@ const repository = [
     { id: 26, date: "28 June 2026 14:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Informatika", result: "Coming Soon", link: "#" }
 ];
 
-// 1. Kamus Multi-Bahasa (i18n)
 const i18n = {
     id: {
         role: "Full-Stack Developer", schoolLabel: "Sekolah", classLabel: "Kelas", pobLabel: "Tempat Lahir",
@@ -51,7 +50,6 @@ const i18n = {
     }
 };
 
-// 2. Baca pengaturan bahasa utama dari perangkat / browser
 const userLang = navigator.language || navigator.userLanguage;
 const currentLang = userLang.startsWith('id') ? 'id' : 'en'; 
 const lang = i18n[currentLang];
@@ -60,7 +58,6 @@ const renderTarget = document.getElementById('render-target');
 const searchBar = document.getElementById('search-bar');
 let countdownInterval = null;
 
-// Mengatur konten teks statis pada UI sesuai bahasa sistem
 function applyLanguageToUI() {
     document.getElementById('txt-role').innerText = lang.role;
     document.getElementById('txt-school-label').innerText = lang.schoolLabel;
