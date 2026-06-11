@@ -16,15 +16,14 @@ const repository = [
     { id: 15, date: "19 April 2026", name: "Olimpiade Sains dan Teknologi Nasional (OSTN)", host: "Sentral Olimpiade", field: "Biologi", result: "Medali Emas (A+)", link: "#" },
     { id: 16, date: "26 April 2026", name: "Kejuaraan Sains Nasional (KSN)", host: "Puskanas", field: "Informatika", result: "Medali Emas (A+)", link: "#" },
     { id: 17, date: "24 May 2026", name: "Sentral Olimpiade Nasional (SEON)", host: "Sentral Olimpiade", field: "Geografi", result: "Medali Emas (A+)", link: "#" },
-    { id: 18, date: "24 May 2026", name: "Saintech National Competition (SNC)", host: "Saintech", field: "Kimia", result: "Medali Emas (A+)", link: "#"},
+    { id: 18, date: "24 May 2026", name: "Saintech National Competition (SNC)", host: "Saintech", field: "Kimia", result: "Medali Emas (A+)", link: "https://drive.google.com/file/d/1RpTpvnsr-m47a0DLetgS_JeqhVrcCeSr/view?usp=drivesdk"},
     { id: 19, date: "31 May 2026", name: "LKN Nasional Science Competition (LNSC)", host: "Lembaga Kompetisi Nasional", field: "Fisika", result: "Medali Emas (A+)", link: "#" },
-    { id: 20, date: "7 June 2026 12:00", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Kimia", result: "Coming Soon", link: "#" },
-    { id: 21, date: "7 June 2026 13:20", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Kedokteran", result: "Coming Soon", link: "#" },
-    { id: 22, date: "7 June 2026 12:40", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Fisika", result: "Coming Soon", link: "#" },
-    { id: 23, date: "7 June 2026 11:20", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Geografi", result: "Coming Soon", link: "#" },
-    { id: 24, date: "28 June 2026 09:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Kimia", result: "Coming Soon", link: "#" },
-    { id: 25, date: "28 June 2026 13:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Fisika", result: "Coming Soon", link: "#" },
-    { id: 26, date: "28 June 2026 14:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Informatika", result: "Coming Soon", link: "#" }
+    { id: 20, date: "7 June 2026 12:00", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Kimia", result: "Medali Emas (A+)", link: "#" },
+    { id: 21, date: "7 June 2026 12:40", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Fisika", result: "Medali Emas (A+)", link: "#" },
+    { id: 22, date: "7 June 2026 11:20", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Geografi", result: "Medali Emas (A+)", link: "#" },
+    { id: 23, date: "28 June 2026 09:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Kimia", result: "Coming Soon", link: "#" },
+    { id: 24, date: "28 June 2026 13:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Fisika", result: "Coming Soon", link: "#" },
+    { id: 25, date: "28 June 2026 14:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Informatika", result: "Coming Soon", link: "#" }
 ];
 
 const i18n = {
