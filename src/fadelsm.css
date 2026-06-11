@@ -112,7 +112,7 @@ aside {
 .separator {
     width: 50px; 
     height: 2px; 
-    background-color: var(--indigo-500); 
+    background-color: white; 
     margin: 20px 0; 
     border-radius: 2px;
     opacity: 0.6;
