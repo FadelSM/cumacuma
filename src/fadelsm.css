@@ -155,7 +155,7 @@ main {
     border-radius: 10px; 
     border: 1px solid var(--slate-700);
     font-size: 0.75rem; 
-    color: var(--indigo-500); 
+    color: white; 
     font-family: monospace;
 }
 
