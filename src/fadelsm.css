@@ -43,13 +43,6 @@ aside {
     display: inline-block;
 }
 
-.verified-badge {
-    display: inline-block;
-    margin-left: 4px;
-    font-size: 1rem;
-    vertical-align: middle;
-}
-
 .desk-profile {
     color: var(--indigo-500); 
     font-size: 0.9rem; 
