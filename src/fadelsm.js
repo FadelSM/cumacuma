@@ -18,10 +18,7 @@ const repository = [
     { id: 17, date: "24 May 2026", name: "Sentral Olimpiade Nasional (SEON)", host: "Sentral Olimpiade", field: "Geografi", result: "Medali Emas (A+)", link: "#" },
     { id: 18, date: "24 May 2026", name: "Saintech National Competition (SNC)", host: "Saintech", field: "Kimia", result: "Medali Emas (A+)", link: "https://drive.google.com/file/d/1RpTpvnsr-m47a0DLetgS_JeqhVrcCeSr/view?usp=drivesdk"},
     { id: 19, date: "7 June 2026", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Geografi", result: "Medali Emas (A+)", link: "#" },
-    { id: 20, date: "18 June 2026 08:00", name: "Olimpiade Sains Nasional", host: "Puspresnas", field: "Informatika", result: "Coming soon", link: "#" },
-    { id: 21, date: "28 June 2026 09:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Kimia", result: "Coming Soon", link: "#" },
-    { id: 22, date: "28 June 2026 13:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Fisika", result: "Coming Soon", link: "#" },
-    { id: 23, date: "28 June 2026 14:00", name: "Olimpiade Sains Siswa Nasional (OSSN)", host: "Puskanas", field: "Informatika", result: "Coming Soon", link: "#" }
+    { id: 20, date: "18 June 2026", name: "Olimpiade Sains Nasional", host: "Puspresnas", field: "Informatika", result: "Tidak Lolos", link: "#" },
 ];
 
 const i18n = {
