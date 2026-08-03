@@ -93,6 +93,36 @@ aside {
     gap: 12px; 
 }
 
+.link-card {
+            background-color: #ffffff;
+            border-radius: 14px;
+            padding: 22px;
+            text-decoration: none;
+            color: #1a1a2e;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+            border: 1px solid #eef1f7;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+.link-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 11px;
+            background: linear-gradient(135deg, #38b6ff 0%, #2a8fcc 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: white;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
 .profile-meta p { 
     margin: 0; 
     font-size: 0.75rem; 
