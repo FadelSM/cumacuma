@@ -19,6 +19,7 @@ const repository = [
     { id: 18, date: "24 May 2026", name: "Saintech National Competition (SNC)", host: "Saintech", field: "Kimia", result: "Medali Emas (A+)", link: "https://drive.google.com/file/d/1RpTpvnsr-m47a0DLetgS_JeqhVrcCeSr/view?usp=drivesdk"},
     { id: 19, date: "7 June 2026", name: "Kompetisi Sains Siswa Sigma (KSSS)", host: "Sigma Sains Nasional", field: "Geografi", result: "Medali Emas (A+)", link: "#" },
     { id: 20, date: "18 June 2026", name: "Olimpiade Sains Nasional", host: "Puspresnas", field: "Informatika", result: "Tidak Lolos", link: "#" },
+    { id: 21, date: "09 Agustus 2026", name: "Transmigrasi", host: "kementerian Transmigrasi", field: "bug hunter", result: "Apresiasi Penghargaan", link: "https://drive.google.com/file/d/1DwXHlW3vznhnP3ATpDbf_C-hGBZM6sQF/view?usp=drivesdk" },
 ];
 
 const i18n = {
