@@ -21,7 +21,10 @@ const repository = [
     { id: 20, date: "18 June 2026", name: "Olimpiade Sains Nasional", host: "Puspresnas", field: "Informatika", result: "Tidak Lolos", link: "#" },
     { id: 21, date: "09 August 2026", name: "Transmigrasi", host: "kementerian Transmigrasi", field: "Bug Hunter", result: "Apresiasi Penghargaan", link: "https://drive.google.com/file/d/11oDFDa4MBbD39GQrjIaYuAw9dBIcgksH/view?usp=drivesdk" },
     { id: 22, date: "27 September 2026", name: "Kompetisi Sains RuangGuru", host: "RuangGuru", field: "Kimia", result: "Tidak Lolos", link: "#" },
-    { id: 23, date: "04 October 2026 13:00", name: "Olimpiade Siswa Nasional", host: "Asosiasiolimpiade", field: "Biologi", result: "Coming Soon", link: "#" },
+    { id: 23, date: "04 October 2026 13:00", name: "Olimpiade Siswa Nasional", host: "Asosiasiolimpiade", field: "Biologi", result: "Medali Emas (A+)", link: "#" },
+    { id: 24, date: "11 October 2026 12:00", name: "Olimpiade Sains Pelajar Nusantara", host: "Saintech", field: "Kimia", result: "Coming Soon", link: "#" },
+    { id: 25, date: "11 October 2026 13:20", name: "Olimpiade Sains Pelajar Nusantara", host: "Saintech", field: "Biologi", result: "Coming Soon", link: "#" },
+    { id: 26, date: "11 October 2026 14:00", name: "Olimpiade Sains Pelajar Nusantara", host: "Saintech", field: "Matematika", result: "Coming Soon", link: "#" },
 ];
 
 const i18n = {
