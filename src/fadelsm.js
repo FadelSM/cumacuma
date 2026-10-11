@@ -155,8 +155,7 @@ function startGlobalCountdown(items) {
             const timerElement = document.getElementById(`timer-${item.id}`);
             if (!timerElement) return;
 
-            const eventDate = new Date(item.date).getTime();
-            const processDeadline = eventDate + (2 * 60 * 60 * 1000); 
+            const eventDate = new Date(item.targetDate).getTime();
             const distance = eventDate - currentTime;
 
             if (distance > 0) {
@@ -166,16 +165,17 @@ function startGlobalCountdown(items) {
                 const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                 if (days >= 1) {
-                    timerElement.innerHTML = `⏳ ${days + 1} ${lang.daysAgo}`;
+                    timerElement.innerHTML = `⏳ ${days}h ${hours}j lagi`;
                 } else {
-                    timerElement.innerHTML = `⏳ ${hours}h ${minutes}m ${seconds}s`;
+                    timerElement.innerHTML = `⏳ ${hours}j ${minutes}m ${seconds}d`;
                 }
-            } else if (currentTime < processDeadline) {
-                timerElement.innerHTML = lang.working;
-                timerElement.style.color = "#fbbf24";
             } else {
-                timerElement.innerHTML = lang.waiting;
-                timerElement.style.color = "#94a3b8"; 
+                if (item.type === "final") {
+                    timerElement.innerHTML = "🔴 Final Dimulai!";
+                    timerElement.style.color = "#fbbf24";
+                } else {
+                    timerElement.innerHTML = lang.waiting;
+                }
             }
         });
     }, 1000);
