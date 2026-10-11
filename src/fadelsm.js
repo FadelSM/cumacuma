@@ -171,7 +171,7 @@ function startGlobalCountdown(items) {
                 }
             } else {
                 if (item.type === "final") {
-                    timerElement.innerHTML = "🔴 Final Dimulai!";
+                    timerElement.innerHTML = "Sedang dikerjakan";
                     timerElement.style.color = "#fbbf24";
                 } else {
                     timerElement.innerHTML = lang.waiting;
